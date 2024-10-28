@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: "Hello Flask REST API"
+  description: "Hello world."
+  version: "1.0.0"
+
+servers:
+   - url: "/api"
+
+paths:
+    /home:
+      get:
+        summary: "Résumé de l'opération GET"
+        operationId: "views.get_home"
+        responses:
+          '200':
+            description: "Opération réussie"
+
