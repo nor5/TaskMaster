@@ -8,3 +8,14 @@ Install the packages listed in the requirements.txt file: `pip install -r requir
 To launch the API navigate to the api/ directory and run `python3 app.py`
 In your browser, open http://0.0.0.0:8080, and you will be automatically redirected to http://0.0.0.0:8080/api/ui/. After executing the GET request on /home, you should see the expected response message. 
 ![home](/api/home.png)
+
+    gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit
